@@ -1,0 +1,69 @@
+/*Selector {
+	Property: value;
+}*/
+
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(backgroundimage.jpg);
+	background-size: cover;
+}
+
+p {
+	color: #AA4139;
+	text-align: center;
+	border: 5px solid rgba(255, 176, 170, 0.3);
+	cursor: pointer;
+}
+
+img {
+	float: left; 
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+p {
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80%;
+	font-family: "Times New Roman"
+}
+
+p {
+	color: green;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext1:last-child {
+	color: red;
+	border: 2px dashed red;
+}
+.webtext2:first-child {
+	color: blue;
+	border: 2px dashed blue;
+}
+
+.active1 {
+	color: blue;
+}
+.active2 {
+	color: red;
+}
+
+#div1 {
+	background: rgba(0, 0, 255, 0.3);
+}
+
+#div2 {
+	background: rgba(255, 0, 0, 0.3);
+}
